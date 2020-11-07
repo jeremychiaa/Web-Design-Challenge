@@ -14,7 +14,7 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,58 +28,64 @@
                 Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Cloudiness</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Max Temperature</a>
-                <a class="dropdown-item" href="#">Wind Speed</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
             </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
+                <a class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
+                <a class="nav-link" href="data.html">Data</a>
             </li>
         </ul>
         </div>
     </nav>
 
-    <div class = "col-lg-6 col-md-12">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-5">Summary: Latitude vs X</h1>
-            <hr class="my-4" style = "margin-left: 20px;">
-            <a href = "max-temp.html"><img src = "Resources/latitude_vs_temp.png" id = "padimg" style="float:left"></a>
-            <p> 
-            <p>The purpose of this project was to analyze how weather changes as you get close to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-            </p>
+    <div class = "row">
+        <div class = "col-md-1">
+        
         </div>
-    </div>
+        <div class = "col-lg-6 col-md-12">
+            <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-5">Summary: Latitude vs X</h1>
+                <hr class="my-4" style = "margin-left: 20px;">
+                <a href = "max-temp.html"><img src = "Resources/latitude_vs_temp.png" id = "padimg" style="float:left"></a>
+                <p> 
+                <p>The purpose of this project was to analyze how weather changes as you get close to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
 
-    <div class="col-lg-4 col-md-12">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-5">Visualizations</h1>
-            <hr class="my-4" style = "margin-left: 20px;">
-            <p>
-            <div class="container">
-                <div class="image">
-                <a href = "#"><img src = "Resources/latitude_vs_temp.png"></a>
-                </div>
-                <div class="image">
-                <a href = "#"><img src = "Resources/latitude_vs_humidity.png"></a>
-                </div>
-                <div class="image">
-                <a href = "#"><img src = "Resources/latitude_vs_cloudiness.png"></a>
-                </div>
-                <div class="image">
-                <a href = "#"><img src = "Resources/latitude_vs_windspeed.png"></a>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </p>
+            </div>
+        </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1 class="display-5">Visualizations</h1>
+                    <hr class="my-4" style = "margin-left: 20px;">
+                    <p>
+                    <div class="container">
+                        <div class="image">
+                        <a href = "maxtemp.html"><img src = "Resources/latitude_vs_temp.png"></a>
+                        </div>
+                        <div class="image">
+                        <a href = "humidity.html"><img src = "Resources/latitude_vs_humidity.png"></a>
+                        </div>
+                        <div class="image">
+                        <a href = "cloudiness.html"><img src = "Resources/latitude_vs_cloudiness.png"></a>
+                        </div>
+                        <div class="image">
+                        <a href = "windspeed.html"><img src = "Resources/latitude_vs_windspeed.png"></a>
+                        </div>
+                    </div>
+                    </p>
                 </div>
             </div>
-            </p>
         </div>
-    </div>
-    
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
