@@ -1,56 +1,113 @@
-/* Styling for HTML elements */
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-  }
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
   
-  header {
-    background: #333;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
+h1 {
+    padding-left: 25px;
+    color: rgb(3, 3, 59);
+    font-weight: bold;
+}
+
+h5 {
+    padding-bottom: 5px;
     text-align: center;
-  }
-  
-  h2 {
-    font-size: 24px;
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Selecting elements by ID */
-  #description {
-    float: left;
-  }
-  
-  #figure {
-    position: relative;
-  }
- 
-  #main-bio {
-    width: 70%;
+    text-indent: -110px;
+    color:  rgb(3, 3, 59);
+    font-weight: bold;
+}
+
+.center {
+    margin: auto;
+    background: whitesmoke;
+    width: 66%;
   }
 
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .image {
+    border: 3px solid whitesmoke;
+    width: 50%;
+}
+
+.container .image:hover {
+    border: 3px solid  rgb(3, 3, 59);
+    width: 50%;
+}
+
+.container img {
+width: calc(100% - (20px * 2));
+margin: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2;
+}
+
+#parasize{
+    font-size: 20px;
+}
+
+.clearfix::after{
+    content: "";
+        display: block;
+    clear: both;
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+}
+
+.row {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+#hcolour{
+    font-weight: bold;
+    color: whitesmoke;
+}
+#padimg {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.maxwidth {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    max-width: 1280px;
+    background-color: whitesmoke;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 990 pixels */
+@media (max-width: 990px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
   }
