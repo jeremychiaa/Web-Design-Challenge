@@ -94,16 +94,8 @@ p {
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 990 pixels */
 @media (max-width: 990px) {
-    .navbar li {
-      padding: 10px;
-    }
-  
     .post {
       padding-left: 50px;
       padding-right: 50px;
-    }
-  
-    #nav-select {
-      visibility: visible;
     }
   }
