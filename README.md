@@ -1,8 +1,8 @@
 # Web-Design-Challenge - Web Visualization Dashboard (Latitude)
 
-## Deployed GitHub Page: https://jeremychiaa.github.io/Web-Design-Challenge/WebVisualizations/index.html
+Deployed GitHub Page: https://jeremychiaa.github.io/Web-Design-Challenge/WebVisualizations/index.html
 
-## Python API Challenge: https://github.com/jeremychiaa/python-api-challenge
+Python API Challenge: https://github.com/jeremychiaa/python-api-challenge
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
