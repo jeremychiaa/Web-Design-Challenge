@@ -1,6 +1,6 @@
 # Web-Design-Challenge - Web Visualization Dashboard (Latitude)
 
-Deployed GitHub Page: https://jeremychiaa.github.io/Web-Design-Challenge/WebVisualizations/index.html
+Deployed GitHub Page: https://jeremychiaa.github.io/web-design-challenge/WebVisualizations/index.html
 
 Python API Challenge: https://github.com/jeremychiaa/python-api-challenge
 
